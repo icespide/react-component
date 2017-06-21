@@ -1,1 +1,3 @@
-console.log('foo');
+import Thwip from './thwip';
+
+export default Thwip;
