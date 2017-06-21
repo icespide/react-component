@@ -2,11 +2,16 @@
   "name": "react-component",
   "version": "1.0.0",
   "description": "boilerplate for a simple react-component",
-  "main": "index.js",
+  "main": "modules/index.js",
   "repository": "git@github.com:icespide/react-component.git",
   "author": "Peter Bault <icespide@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "babel src -d modules",
+    "start": ""
+  },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.0",
     "babel-preset-env": "^1.5.2",
